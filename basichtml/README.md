@@ -14,6 +14,22 @@
 * [Form](#form)
 <!-- * [License](#license) -->
 
+## HTML 
+
+HTML5 Skeleton
+
+```html
+<!DOCTYPE html> 
+<html lang="en"> 
+	<head> 
+		<title>Example document</title> 
+	</head> 
+	<body> 
+		<p>This is some text.</p> 
+		<p>This is more text.</p> 
+	</body> 
+</html>
+```
 
 ## Heading
 
@@ -25,7 +41,7 @@
   <h5>Heading 5</h5>
   <h6>Heading 6</h6>
 ```
-
+### Result
   <h1>Heading 1</h1>
   <h2>Heading 2</h2>
   <h3>Heading 3</h3>
