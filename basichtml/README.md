@@ -297,8 +297,8 @@ A table represents information in a grid format.
 <img src="form.png" width="40%" height="50%">
 <!-- !['form'](form.jpg) -->
 
-ตัวอย่าง Source Code: - [Basic HTML](../index.html)
-ตัวอย่างเว็บไซต์ [Web portfolio](https://2018patty.github.io/web_programming_portfolio/)
+* ตัวอย่าง Source Code: - [Basic HTML](../index.html)
+* ตัวอย่างเว็บไซต์ [Web portfolio](https://2018patty.github.io/web_programming_portfolio/)
 
 ## Contact
 
