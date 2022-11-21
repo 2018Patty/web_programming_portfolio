@@ -95,9 +95,9 @@ source: Unsplash.com
 
 ## Unorderlist
 
-- Unordered list is used as unordered list which consists of 2 tags: <ul> and <li>.
-- <ul> represents a bulleted list of items.
-- <li> represents a single item within the list. The browser will precede each list item with a bullet.
+* Unordered list is used as unordered list which consists of 2 tags: ``<ul>`` and ``<li>``.
+* ``<ul>`` represents a bulleted list of items.
+* ``<li>`` represents a single item within the list. The browser will precede each list item with a bullet.
 
 ```html
 <h2>Table of contents</h2>
