@@ -41,8 +41,6 @@
 <h6>Heading 6</h6>
 ```
 
-
-
   <h1>Heading 1</h1>
   <h2>Heading 2</h2>
   <h3>Heading 3</h3>
@@ -68,7 +66,6 @@
 </p>
 ```
 
-
 <h1>Web Programming</h1>
 <p>
   หลักการเขียนโปรแกรมเว็บ การพัฒนาโปรแกรมประยุกต์เว็บโดยใช้ภาษาที่นิยม
@@ -82,6 +79,18 @@
   using database; framework for web development; practice corresponding with
   course
 </p>
+
+## Image
+
+The <img> element represents an image. 
+It doesn’t need an end tag, 
+The source image URL is specified by using the **src** attribute.
+
+```html
+<img src=“pic.jpg" alt=“computer" />
+```
+
+<img src=“pic.jpg" alt=“computer" />
 
 ## Contact
 
