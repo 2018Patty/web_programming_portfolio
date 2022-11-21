@@ -90,7 +90,7 @@ The source image URL is specified by using the **src** attribute.
 <img src=“pic.jpg" alt=“computer" />
 ```
 
-!['computer'](pic.jpg | width=200)
+!['computer'](pic.jpg)
 source: Unsplash.com
 
 ## Unorderlist
