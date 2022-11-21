@@ -15,8 +15,6 @@
 - [Form](#form)
 <!-- * [License](#license) -->
 
-
-
 ## HTML5 Skeleton
 
 ```html
@@ -51,6 +49,39 @@
   <h4>Heading 4</h4>
   <h5>Heading 5</h5>
   <h6>Heading 6</h6>
+
+## Paragraph
+
+```html
+<h1>Web Programming</h1>
+<p>
+  หลักการเขียนโปรแกรมเว็บ การพัฒนาโปรแกรมประยุกต์เว็บโดยใช้ภาษาที่นิยม
+  ภาษาสคริปต์ ภาษาสาหรับการจัดรูปแบบเว็บ การพัฒนาเว็บเพื่อใช้งานฐานข้อมูล
+  เฟรมเวอร์คสาหรับการพัฒนาเว็บ การฝึกปฏิบัติที่สอดคล้องกับรายวิชา
+</p>
+
+<p>
+  Principles of web programming; web application development using popular
+  languages; scripting languages, web formatting languages; web development for
+  using database; framework for web development; practice corresponding with
+  course
+</p>
+```
+
+**result**
+<h1>Web Programming</h1>
+<p>
+  หลักการเขียนโปรแกรมเว็บ การพัฒนาโปรแกรมประยุกต์เว็บโดยใช้ภาษาที่นิยม
+  ภาษาสคริปต์ ภาษาสาหรับการจัดรูปแบบเว็บ การพัฒนาเว็บเพื่อใช้งานฐานข้อมูล
+  เฟรมเวอร์คสาหรับการพัฒนาเว็บ การฝึกปฏิบัติที่สอดคล้องกับรายวิชา
+</p>
+
+<p>
+  Principles of web programming; web application development using popular
+  languages; scripting languages, web formatting languages; web development for
+  using database; framework for web development; practice corresponding with
+  course
+</p>
 
 ## Contact
 
