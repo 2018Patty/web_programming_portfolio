@@ -18,7 +18,7 @@ Principles of web programming; web application development using popular languag
 
 
 ## Topics
-- [Basic HTML](basichtml/web_programming.html)
+- [Basic HTML](basichtml/README.md)
 - CSS Fundamental
 - CSS Framework: Bootstrap
 - JavaScript
