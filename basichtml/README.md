@@ -293,81 +293,8 @@ A table represents information in a grid format.
   </p>
 </form>
 ```
+!['form'](form.jpg)
 
-<form action="http://www.example.com" method="post">
-  <p>
-    <label for="name">Name: </label>
-    <input type="text" name="fullname" size="30" maxlength="15" />
-  </p>
-
-  <p>
-    <label for="gender">Gender</label>
-    <input type="radio" name="gender" value="female" checked />Female
-    <input type="radio" name="gender" value="male" />Male
-    <input type="radio" name="gender" value="other" />Other
-  </p>
-
-  <p>
-    <label for="email">Email: </label>
-    <input type="email" name="email" />
-    <!--กำหนดรูปแบบให้เป็น email format-->
-  </p>
-
-  <p>
-    <label for="tel">Tel: </label>
-    <input
-      type="tel"
-      name="tel"
-    /><!--กำหนดรูปแบบให้โทรศัพท์ เป็นตัวเลขเท่านั้น-->
-  </p>
-
-  <p>
-    <label for="address">Address: </label>
-    <textarea name="address" cols="30" rows="5"></textarea>
-  </p>
-
-  <p>
-    <label for="province">Provice: </label>
-    <select name="provice">
-      <option value="Bangkok">Bangkok</option>
-      <option value="Surat Thani" selected>Surat Thani</option>
-      <option value="Phuket">Phuket</option>
-    </select>
-  </p>
-
-  <p>
-    <label for="photo">Upload your photo: </label>
-    <input type="file" name="photo" />
-  </p>
-
-  <p>
-    <input type="checkbox" name="signup" value="1" checked />Sign me up for
-    email updates
-  </p>
-  <p>
-    <label for="username">Username: </label>
-    <input type="text" name="username" />
-  </p>
-  <p>
-    <label for="password">Password: </label>
-    <input type="password" name="password" />
-  </p>
-
-  <p>
-    <label for="password">Re-Type Password: </label>
-    <input type="password" name="re_password" />
-  </p>
-
-  <p>
-    <label for="facebook">Facebook URL: </label>
-    <input type="url" name="facebook" />
-  </p>
-
-  <p>
-    <input type="submit" value="Subscribe" />
-    <input type="reset" value="Cancel" />
-  </p>
-</form>
 
 ## Contact
 
