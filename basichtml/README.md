@@ -148,9 +148,9 @@ Hyperlinks are links between documents which can be within your own site (relati
 - \_top - Opens the document in the full body of the window
 
 ```html
-	 A relative hyperlink
+* A relative hyperlink
 		<a href=“aboutus/index.html”>About Us </a>
-	An absolute hyperlink
+* An absolute hyperlink
 		<a href=“http://www.google.com” target=“_blank”>Google</a>
 
 ```
