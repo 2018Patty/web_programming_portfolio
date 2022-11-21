@@ -293,7 +293,9 @@ A table represents information in a grid format.
   </p>
 </form>
 ```
-!['form'](form.jpg)
+
+<img src="form.png" width="60%" height="60%">
+<!-- !['form'](form.jpg) -->
 
 
 ## Contact
