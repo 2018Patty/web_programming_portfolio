@@ -174,12 +174,12 @@ A table represents information in a grid format.
     <td>89</td>
   </tr>
   <tr>
-    <td>2/td></td>
+    <td>2</td>
     <td>Rose</td>
     <td>90</td>
   </tr>
   <tr>
-    <td>3/td></td>
+    <td>3</td>
     <td>John</td>
     <td>60</td>
   </tr>
@@ -197,12 +197,12 @@ A table represents information in a grid format.
     <td>89</td>
   </tr>
   <tr>
-    <td>2/td></td>
+    <td>2</td>
     <td>Rose</td>
     <td>90</td>
   </tr>
   <tr>
-    <td>3/td></td>
+    <td>3</td>
     <td>John</td>
     <td>60</td>
   </tr>
