@@ -82,8 +82,8 @@
 
 ## Image
 
-The <img> element represents an image. 
-It doesn’t need an end tag, 
+The <img> element represents an image.
+It doesn’t need an end tag,
 The source image URL is specified by using the **src** attribute.
 
 ```html
@@ -91,7 +91,31 @@ The source image URL is specified by using the **src** attribute.
 ```
 
 !['computer'](pic.jpg)
+source: Unsplash.com
 
+## Unorderlist
+
+- Unordered list is used as unordered list which consists of 2 tags: <ul> and <li>.
+- <ul> represents a bulleted list of items.
+- <li> represents a single item within the list. The browser will precede each list item with a bullet.
+
+```html
+<h2>Table of contents</h2>
+<ul>
+  <li>Teaching</li>
+  <li>Researches</li>
+  <li>Academic Services</li>
+  <li>About Me</li>
+</ul>
+```
+
+<h2>Table of contents</h2>
+    <ul>
+      <li>Teaching</li>
+      <li>Researches</li>
+      <li>Academic Services</li>
+      <li>About Me</li>
+    </ul>
 
 ## Contact
 
