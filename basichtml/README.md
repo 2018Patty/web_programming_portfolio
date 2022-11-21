@@ -293,7 +293,7 @@ A table represents information in a grid format.
   </p>
 </form>
 ```
-!['form'](form.jpeg)
+!['form'](form.jpg)
 
 
 ## Contact
