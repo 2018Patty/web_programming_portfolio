@@ -155,9 +155,9 @@ Hyperlinks are links between documents which can be within your own site (relati
 
 * Absolute Path :การอ้างอิงตำแหน่งไฟล์ จากตำแหน่งที่เก็บจริงใน Drive
 * การอ้างอิงตำแหน่งไฟล์ ตามตัวอย่างโครงสร้างไฟล์
-** ``/contact/contact.html``
-** ``/products/product.html``
-** ``/index.html``
+  * ``/contact/contact.html``
+  * ``/products/product.html``
+  * ``/index.html``
 
 * Relative Path : การอ้างอิงตำแหน่งไฟล์ จากไฟล์ปัจจุบันที่กำลังทำงานอยู่ ไปยังตำแหน่งไฟล์ปลายทาง 
 
