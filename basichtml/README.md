@@ -195,9 +195,7 @@ Hyperlinks are links between documents which can be within your own site (relati
           <li>Teaching</li>
           <li>Researches</li>
           <li>Academic Services</li>
-          ```diff
-                  <li><a href="#aboutme">About Me </a></li>
-          ```
+          <li><a href="#aboutme">About Me </a></li>
         </ul>
 
 
