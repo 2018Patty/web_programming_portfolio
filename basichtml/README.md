@@ -151,7 +151,7 @@ Hyperlinks are links between documents which can be within your own site (relati
 
 **ตัวอย่างไฟล์ภายในเว็บไซต์**
 
-<img src="images/linkPath.png" alt="LinkPath" width="10%" height="20%"/>
+<img src="images/linkPath.png" alt="LinkPath" width="15%" height="25%"/>
 
 * Absolute Path :การอ้างอิงตำแหน่งไฟล์ จากตำแหน่งที่เก็บจริงใน Drive
 * การอ้างอิงตำแหน่งไฟล์ ตามตัวอย่างโครงสร้างไฟล์
