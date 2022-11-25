@@ -87,7 +87,7 @@ It doesn’t need an end tag,
 The source image URL is specified by using the **src** attribute.
 
 ```html
-<img src="pic.jpg" alt="computer" width="60%" height="70%"/>
+<img src="pic.jpg" alt="computer" width="60%" height="70%" />
 ```
 
 !['computer'](pic.jpg)
@@ -147,52 +147,68 @@ Hyperlinks are links between documents which can be within your own site (relati
 - \_parent - Opens the document in the parent frame
 - \_top - Opens the document in the full body of the window
 
-## Relative Path and Absolute Path
+### Relative Path and Absolute Path
 
-**ตัวอย่างไฟล์ภายในเว็บไซต์**
+- A relative hyperlink
+  `<a href=“aboutus/index.html”>About Us </a>`
+
+- An absolute hyperlink
+  `<a href=“http://www.google.com” target=“_blank”>Google</a>`
+
+**ตัวอย่างไฟล์ภายในเว็บไซต์ โดยวิธี Relative Path**
 
 <img src="images/linkPath.png" alt="LinkPath" width="15%" height="25%"/>
 
-* Absolute Path :การอ้างอิงตำแหน่งไฟล์ จากตำแหน่งที่เก็บจริงใน Drive
-* การอ้างอิงตำแหน่งไฟล์ ตามตัวอย่างโครงสร้างไฟล์
-  * ``/contact/contact.html``
-  * ``/products/product.html``
-  * ``/index.html``
+- Absolute Path :การอ้างอิงตำแหน่งไฟล์ จากตำแหน่งที่เก็บจริงใน Drive
+- การอ้างอิงตำแหน่งไฟล์ ตามตัวอย่างโครงสร้างไฟล์
 
-* Relative Path : การอ้างอิงตำแหน่งไฟล์ จากไฟล์ปัจจุบันที่กำลังทำงานอยู่ ไปยังตำแหน่งไฟล์ปลายทาง 
+  - `/contact/contact.html`
+  - `/products/product.html`
+  - `/index.html`
 
-การอ้างอิงให้คำนึงถึงไฟล์ที่กำลังทำงานปัจจุบัน  พิจารณาเส้นทางเข้าถึงไฟล์ปลายทาง เช่น ต้องการสร้างลิงค์ จากไฟล์ index.html ไปยังไฟล์ product.html เขียนคำสังได้ดังนี้
+- Relative Path : การอ้างอิงตำแหน่งไฟล์ จากไฟล์ปัจจุบันที่กำลังทำงานอยู่ ไปยังตำแหน่งไฟล์ปลายทาง
 
-``<a href=“products/product.html”>Product </a>``
+การอ้างอิงให้คำนึงถึงไฟล์ที่กำลังทำงานปัจจุบัน พิจารณาเส้นทางเข้าถึงไฟล์ปลายทาง เช่น ต้องการสร้างลิงค์ จากไฟล์ index.html ไปยังไฟล์ product.html เขียนคำสังได้ดังนี้
+
+`<a href=“products/product.html”>Product </a>`
 
 หรือต้องการสร้างลิงค์จากไฟล์ newArrival.html ไปยังไฟล์ product.html
 
-``<a href=“product.html”> Product </a>``
+`<a href=“product.html”> Product </a>`
 
 เนื่องจากไฟล์ newArrival.html และ product.html เก็บอยู่ในตำแหน่งเดียวกัน สามารถเรียกชื่อไฟล์ได้เลย
 ถ้าเก็บอยู่คนละ folder ให้ใช้สัญลักษณะ /เพื่อเปิดไปยัง folder ที่ไฟล์นั้นเก็บอยู่ตามลำดับชั้นของ folder กรณีที่ไฟล์ต้องการเชื่อมโยงไปยังไฟล์ อยู่ด้านนอก folder ที่กำลังทำงานอยู่ ต้องใช้สัญลักษณะ ../ หมายถึงการเดินออกจาก folder ปัจจุบันขึ้นมา 1 ระดับ เช่น ต้องการเชื่อมโยงไฟล์ news.html กลับไปยังไฟล์ index.html
 
-``<a href=“../index.html”> Product </a>``
+`<a href=“../index.html”> Product </a>`
+
+### Linking to a specific part of a page
+
+การลิงค์ภายในเว็บเพจหน้าเดียวกัน
+
+- To Identify the point in the page by using the ``id`` attribute.
+- To link to an element that uses the ``<a>`` element.
+- The value of href attribute starts with # symbol.
+
+  ```ex.
+        <h2>Table of contents</h2>
+        <ul>
+          <li>Teaching</li>
+          <li>Researches</li>
+          <li>Academic Services</li>
+          ```diff
+                  <li><a href="#aboutme">About Me </a></li>
+          ```
+        </ul>
 
 
-
-* A relative hyperlink
-		
-    ``<a href=“aboutus/index.html”>About Us </a>``
-
-* An absolute hyperlink
-		
-    ``<a href=“http://www.google.com” target=“_blank”>Google</a>``
-
-
-## Linking to a specific part of a page
-
-การลิงค์ภายในเว็บเพจหน้าเดียวกัน 
-* To Identify the point in the page by using the id attribute.
-* To link to an element that uses the <a> element.
-* The value of href attribute starts with # symbol
-
-	``ex. <a href="#top">Top</a>``
+        <h2 id="aboutme">About Me</h2>
+        <p>Pattaraporn Warintarawej</p>
+        <p>
+          Faculty of Sciences and Industrail Technology<br />
+          Prince of Songkla University, Surat Thani Campus<br />
+          31 Moo 6 Makamtai District, Muang, Surat Thani, Thailand 84000
+        </p>
+  ```
 
 ## Table
 
@@ -222,6 +238,7 @@ A table represents information in a grid format.
   </tr>
 </table>
 ```
+
 <table border="2">
   <tr>
     <td>No.</td>
@@ -334,9 +351,9 @@ A table represents information in a grid format.
 <img src="form.png" width="40%" height="50%">
 <!-- !['form'](form.jpg) -->
 
-* ตัวอย่าง Source Code: - [Basic HTML](index.html)
-* ตัวอย่างเว็บไซต์ [Web portfolio](https://2018patty.github.io/web_programming_portfolio/)
-* ตัวอย่าง Source Code Form: [Form](subscribe.html)
+- ตัวอย่าง Source Code: - [Basic HTML](index.html)
+- ตัวอย่างเว็บไซต์ [Web portfolio](https://2018patty.github.io/web_programming_portfolio/)
+- ตัวอย่าง Source Code Form: [Form](subscribe.html)
 
 ## Contact
 
